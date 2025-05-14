@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Saim Ahmad - Amazon FBA Expert. Helping businesses scale with proven strategies.">
+    <meta name="keywords" content="Amazon FBA, E-commerce, Product Research, PPC Campaigns, Inventory Management">
+    <meta name="author" content="Saim Ahmad">
+    <title>Saim Ahmad - Amazon FBA Expert</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="logo">Saim Ahmad</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>I'm Saim Ahmad</h1>
+            <p class="tagline">Amazon FBA Expert | Helping businesses scale with <span class="highlight">proven strategies</span>.</p>
+            <div class="cta-buttons">
+                <a href="#portfolio" class="btn primary">View Portfolio</a>
+                <a href="saim-ahmad-cv.pdf" download class="btn secondary">Download CV</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="saim-ahmad-3d.png" alt="Saim Ahmad - Amazon FBA Expert">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Hi, I'm <span class="highlight">Saim Ahmad</span>, an Amazon FBA Expert with over <strong>5 years</strong> of experience in scaling e-commerce businesses. I specialize in <em>product research</em>, <em>PPC campaigns</em>, and <em>inventory management</em>.</p>
+                <p>My mission is to help entrepreneurs achieve their goals through <span class="highlight">data-driven strategies</span> and automation.</p>
+            </div>
+            <div class="about-image">
+                <img src="about-image.jpg" alt="About Saim Ahmad">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>My Services</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <img src="service1.png" alt="Product Research">
+                <h3>Product Research</h3>
+                <p>Find <em>high-demand</em>, <em>low-competition</em> products for Amazon FBA.</p>
+            </div>
+            <div class="service-card">
+                <img src="service2.png" alt="PPC Campaigns">
+                <h3>PPC Campaigns</h3>
+                <p>Optimize PPC campaigns to <em>maximize ROI</em> and reduce ACoS.</p>
+            </div>
+            <div class="service-card">
+                <img src="service3.png" alt="Inventory Management">
+                <h3>Inventory Management</h3>
+                <p>Automate inventory tracking and avoid <em>stockouts</em>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio Showcase</h2>
+        <div class="portfolio-container">
+            <!-- Case Study 1 -->
+            <div class="project-card">
+                <img src="case-study1.jpg" alt="Case Study 1">
+                <h3>Amazon FBA Automation</h3>
+                <p>Automated inventory management and order processing for Amazon FBA sellers.</p>
+                <a href="#" class="btn primary">View Details</a>
+            </div>
+            <!-- Add 7-8 more case studies similarly -->
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certifications-container">
+            <!-- Certification 1 -->
+            <div class="certification-card">
+                <img src="certificate1.jpg" alt="Certification 1">
+                <h3>Amazon FBA Certification</h3>
+                <p>Issued by Amazon - 2023</p>
+            </div>
+            <!-- Certification 2 -->
+            <div class="certification-card">
+                <img src="certificate2.jpg" alt="Certification 2">
+                <h3>PPC Mastery Certification</h3>
+                <p>Issued by Google - 2022</p>
+            </div>
+            <!-- Add 3 more certifications similarly -->
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing">
+        <h2>Pricing Plans</h2>
+        <div class="pricing-container">
+            <!-- Plan 1 -->
+            <div class="pricing-card basic">
+                <h3>Basic Plan</h3>
+                <p class="price">$99/month</p>
+                <ul>
+                    <li>Product Research</li>
+                    <li>Basic PPC Setup</li>
+                    <li>Email Support</li>
+                </ul>
+                <a href="#" class="btn primary">Get Started</a>
+            </div>
+            <!-- Plan 2 -->
+            <div class="pricing-card pro">
+                <h3>Pro Plan</h3>
+                <p class="price">$199/month</p>
+                <ul>
+                    <li>Advanced Product Research</li>
+                    <li>Full PPC Management</li>
+                    <li>Priority Support</li>
+                </ul>
+                <a href="#" class="btn primary">Get Started</a>
+            </div>
+            <!-- Plan 3 -->
+            <div class="pricing-card enterprise">
+                <h3>Enterprise Plan</h3>
+                <p class="price">$299/month</p>
+                <ul>
+                    <li>Custom Solutions</li>
+                    <li>Dedicated Account Manager</li>
+                    <li>24/7 Support</li>
+                </ul>
+                <a href="#" class="btn primary">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>What Clients Say</h2>
+        <div class="testimonials-container">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-card">
+                <img src="client1.jpg" alt="Client 1">
+                <p>"Saim helped me scale my Amazon business by <strong>300%</strong> in just 6 months. Highly recommended!"</p>
+                <h4>- John Doe</h4>
+            </div>
+            <!-- Add 5-6 testimonials similarly -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Got a question? Send me a message, and I'll get back to you soon.</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn primary">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <h3>Connect With Me</h3>
+                <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a>
+                <a href="https://wa.me/your-whatsapp-number" target="_blank">WhatsApp</a>
+                <a href="mailto:your-email@example.com">Email</a>
+            </div>
+        </div>
+        <p>&copy; 2025 Saim Ahmad. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Hamburger Menu Toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // GSAP Animations
+        gsap.from("#hero h1", { opacity: 0, y: -50, duration: 1, delay: 0.5 });
+        gsap.from("#hero p", { opacity: 0, y: 50, duration: 1, delay: 1 });
+        gsap.from("#hero .btn", { opacity: 0, y: 50, duration: 1, delay: 1.5 });
+        gsap.from(".hero-image", { opacity: 0, x: 100, duration: 1, delay: 2 });
+
+        gsap.from(".service-card, .project-card, .testimonial-card", {
+            scrollTrigger: {
+                trigger: ".service-card, .project-card, .testimonial-card",
+                start: "top 80%",
+            },
+            opacity: 0,
+            y: 50,
+            stagger: 0.3,
+            duration: 1,
+        });
+
+        // Pricing Section Swipe Effect
+        const pricingCards = document.querySelectorAll('.pricing-card');
+        pricingCards.forEach((card, index) => {
+            gsap.from(card, {
+                scrollTrigger: {
+                    trigger: card,
+                    start: "top 80%",
+                },
+                opacity: 0,
+                y: 50,
+                duration: 1,
+                delay: index * 0.3,
+            });
+        });
+    </script>
+</body>
+</html>
